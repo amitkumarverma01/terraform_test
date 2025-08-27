@@ -10,3 +10,14 @@ variable "location" {
   default     = "East US"
   
 }
+variable "resource_group_name1" {
+  description = "The name of the resource group"
+  type        = string
+  
+}
+
+variable "location1" {
+  description = "The location of the resource group"
+  type        = string
+  default     = "East US"
+}
